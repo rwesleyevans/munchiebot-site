@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Support · Munchie Bot</title>
+  <meta name="description" content="Help with Munchie Bot: scanning lab reports, how munchies scores work, backing up and restoring scans, and how to contact us.">
+  <link rel="canonical" href="https://www.munchiebot.app/support/">
+  <link rel="icon" href="../assets/img/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/SpaceGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="../" aria-label="Munchie Bot home">
+        <span>munchie <span class="bot">bot</span></span>
+        <span class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="./" aria-current="page">Support</a>
+        <a href="../privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc wrap narrow">
+    <header>
+      <h1>Support</h1>
+      <p class="lede">Help with scanning, scores and backups. Still stuck? Email <a href="mailto:support@munchiebot.app">support@munchiebot.app</a>.</p>
+    </header>
+
+    <nav class="card toc" aria-label="On this page">
+      <ul>
+        <li><a href="#what">What Munchie Bot does</a></li>
+        <li><a href="#scan">Scanning a lab report</a></li>
+        <li><a href="#scores">How scores work</a></li>
+        <li><a href="#tune">Sensitivities and ratings</a></li>
+        <li><a href="#backup">Back up and restore</a></li>
+        <li><a href="#help">Troubleshooting</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <section class="card" aria-labelledby="what">
+      <h2 id="what">What Munchie Bot does</h2>
+      <p>Cannabis products come with a lab report, also called a certificate of analysis or COA, that lists the cannabinoids and terpenes measured in that batch. Munchie Bot reads that report and estimates, on a scale of 1 to 10, how likely the product is to make you hungry. It shows which ingredients raised or lowered the score.</p>
+      <p>It’s an information tool for adults 21 and older. It doesn’t sell, deliver or advertise products, and its scores are estimates, not medical advice.</p>
+    </section>
+
+    <section class="card" aria-labelledby="scan">
+      <h2 id="scan">Scanning a lab report</h2>
+      <ul>
+        <li><strong>Scan the QR code</strong> on the product label or packaging that links to its lab report. Tap the scan button next to the search box on the home screen.</li>
+        <li><strong>Paste a link</strong> if you have the report’s web address, for example from the lab’s website.</li>
+        <li><strong>Open a PDF</strong> of the report that you’ve saved to Files.</li>
+        <li><strong>Search strains</strong> to see a strain’s typical profile and score. Batches vary by grower and harvest, so scan the report for the product you have when you can.</li>
+      </ul>
+      <p>Munchie Bot downloads the report straight from the lab’s website and reads it on your phone. Scanning the same report again opens your existing result.</p>
+    </section>
+
+    <section class="card" aria-labelledby="scores">
+      <h2 id="scores">How scores work</h2>
+      <p>The score starts from a typical product and adds or subtracts points for what the lab report shows. In plain words:</p>
+      <dl class="terms">
+        <dt>THC</dt>
+        <dd>More THC generally means a higher score. It’s compared with other products of the same type, because flower, vapes, concentrates and edibles come in very different strengths.</dd>
+        <dt>THCV and CBD</dt>
+        <dd>A meaningful amount of THCV, or a lot of CBD compared with THC, can pull the score down.</dd>
+        <dt>Minor cannabinoids</dt>
+        <dd>CBG, CBN and delta-8 THC can nudge the score up a little.</dd>
+        <dt>Terpenes</dt>
+        <dd>The aroma compounds matter too. Relaxing, myrcene-led profiles tend to raise the score, while energizing ones led by terpinolene or pinene tend to lower it. Their effect is larger when the product is rich in terpenes.</dd>
+      </dl>
+      <h3>Range and confidence</h3>
+      <p>Under each score you’ll see a likely range, such as “Likely 5–8”, and a confidence level. The range gets wider when the report is missing data or when the traits behind the score have less research supporting them. Tap the confidence level to see why.</p>
+      <h3>Why this score</h3>
+      <p>Open any scan and scroll to <span class="ui">Why this score</span> to see each trait’s points, biggest first. Tap a trait to read why it matters and how strong the evidence is, from A (studies in people) to D (mostly user reports).</p>
+      <h3>Strain check</h3>
+      <p>If a batch doesn’t look like its strain usually does, you’ll see a “Not your typical …” note. It’s there for your information and never changes the score.</p>
+      <p>Everyone reacts differently, so treat the score as an estimate.</p>
+    </section>
+
+    <section class="card" aria-labelledby="tune">
+      <h2 id="tune">Sensitivities and ratings</h2>
+      <p><strong>My sensitivities</strong> (the sliders button on the home screen or on a result) lets you turn each trait down, or off, if it doesn’t affect you, and up if it affects you more than most people. Changes apply to all your scans right away. Scans you’ve rated keep the score you saw when you rated them.</p>
+      <p>There’s also an optional <span class="ui">Discount older lab reports</span> setting. Terpenes fade after harvest, so when it’s on, reports more than 3 months old count terpenes less, down to 70% after a year.</p>
+      <p><strong>Ratings:</strong> you can rate a product later to record how it compared with the estimate. If you allow notifications, the app can remind you to rate about 75 minutes after a scan. Ratings are stored only on your phone.</p>
+    </section>
+
+    <section class="card" aria-labelledby="backup">
+      <h2 id="backup">Back up and restore your scans</h2>
+      <p>Your scans live on your iPhone. There’s no account, so a backup is the way to keep them if you delete the app or move to a new phone.</p>
+      <h3>Automatic backup</h3>
+      <p>Munchie Bot keeps a file named <span class="ui">Munchie Bot Backup.json</span> up to date whenever your scans change. You can find it in the Files app under <span class="ui">On My iPhone › Munchie Bot</span>. If the app ever can’t open its database, it restores your scans from this file.</p>
+      <h3>Export a copy</h3>
+      <ol>
+        <li>On the home screen, tap the <span class="ui">Backup</span> button (the drive icon, top left).</li>
+        <li>Choose <span class="ui">Export scans…</span></li>
+        <li>Pick a place to save it, such as iCloud Drive.</li>
+      </ol>
+      <h3>Restore or move to a new phone</h3>
+      <ol>
+        <li>Install Munchie Bot on the new phone.</li>
+        <li>Tap <span class="ui">Backup</span>, then <span class="ui">Import scans…</span></li>
+        <li>Pick the file you exported. Scans you already have are skipped, so importing twice is safe.</li>
+      </ol>
+      <p>If <span class="ui">Restore automatic backup</span> appears in the Backup menu, it brings scans back from the automatic backup file on this phone.</p>
+      <p><strong>Before you delete the app:</strong> deleting it also deletes the automatic backup, so export a copy first. A full iPhone backup to iCloud or a computer also includes Munchie Bot’s data.</p>
+    </section>
+
+    <section class="card" aria-labelledby="help">
+      <h2 id="help">Troubleshooting</h2>
+      <details>
+        <summary>The scan didn’t find any results</summary>
+        <p>Some QR codes lead to pages that need a login or only show results after running scripts. Open the link in Safari, download the report’s PDF, then use <span class="ui">Open PDF</span> in Munchie Bot. If it still fails, email us the link so we can add support for that lab.</p>
+      </details>
+      <details>
+        <summary>The numbers don’t match the report</summary>
+        <p>Tap the document button on a result to open the original report and compare. A low confidence level means the app wasn’t sure it read the report correctly. Please send us the report link so we can fix the reader.</p>
+      </details>
+      <details>
+        <summary>The camera doesn’t open</summary>
+        <p>Check <span class="ui">Settings › Munchie Bot › Camera</span>. On a device without a camera, use <span class="ui">Paste link</span> or <span class="ui">Open PDF</span>.</p>
+      </details>
+      <details>
+        <summary>The store name is missing or wrong</summary>
+        <p>The store is filled in only if you allow location and a dispensary is within about 250 meters when you scan. Tap <span class="ui">Store</span> on a result to type or change it.</p>
+      </details>
+      <details>
+        <summary>I don’t get rating reminders</summary>
+        <p>Check <span class="ui">Settings › Notifications › Munchie Bot</span>.</p>
+      </details>
+      <details>
+        <summary>Is my data shared with anyone?</summary>
+        <p>No. There’s no account, no analytics and no Munchie Bot server. See the <a href="../privacy/">privacy policy</a>.</p>
+      </details>
+    </section>
+
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Contact us</h2>
+      <p><a class="contact-email" href="mailto:support@munchiebot.app">support@munchiebot.app</a></p>
+      <p>To help us help you, include your iPhone model, iOS version and, if a scan failed, the lab report link. Please don’t send health information.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="../">Home</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../data/">Strain data</a>
+        <a href="mailto:support@munchiebot.app">support@munchiebot.app</a>
+      </nav>
+      <p>© 2026 Munchie Bot. Wordmark set in Space Grotesk (<a href="../assets/fonts/OFL.txt">SIL Open Font License</a>).</p>
+    </div>
+  </footer>
+</body>
+</html>

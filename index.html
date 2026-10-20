@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Munchie Bot · Will it give you the munchies?</title>
+  <meta name="description" content="Munchie Bot reads the lab report (COA) linked from a cannabis product's QR code and estimates, from 1 to 10, how likely it is to make you hungry. For iPhone, adults 21+.">
+  <link rel="canonical" href="https://www.munchiebot.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Munchie Bot">
+  <meta property="og:title" content="Munchie Bot · Will it give you the munchies?">
+  <meta property="og:description" content="Scan a product's lab report QR code and get a 1–10 munchies estimate, with the reasons behind it.">
+  <meta property="og:url" content="https://www.munchiebot.app/">
+  <meta property="og:image" content="https://www.munchiebot.app/assets/img/icon-1024.png">
+  <link rel="icon" href="assets/img/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/SpaceGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="./" aria-label="Munchie Bot home">
+        <span>munchie <span class="bot">bot</span></span>
+        <span class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div>
+        <picture>
+          <source srcset="assets/img/icon-256-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="hero-icon" src="assets/img/icon-256.png" alt="" width="112" height="112" fetchpriority="high">
+        </picture>
+      </div>
+      <div>
+        <h1>Will it give you the munchies?</h1>
+        <p class="lede">Scan the QR code on a cannabis product’s lab report. Munchie Bot reads the results and estimates, from 1 to 10, how likely that product is to make you hungry, and shows you why.</p>
+
+        <!-- APP STORE BADGE: when the listing is live, replace this element with Apple's official
+             "Download on the App Store" badge (developer.apple.com/app-store/marketing/guidelines/)
+             linking to https://apps.apple.com/app/id<YOUR_APP_ID>. -->
+        <span class="store-badge">
+          <span><small>Coming soon on the</small><strong>App Store</strong></span>
+        </span>
+        <p class="badge-note">For iPhone · Adults 21+</p>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="how">
+      <div class="section-head">
+        <h2 id="how">How it works</h2>
+        <p>Lab reports list every cannabinoid and terpene in a batch. Munchie Bot turns that table into one number you can read at a glance.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Scan the lab report</h3>
+          <p>Point your camera at the QR code on the label or certificate of analysis (COA). You can also paste a link or open a PDF.</p>
+        </li>
+        <li>
+          <h3>See the score and why</h3>
+          <p>A 1–10 estimate with a likely range and a confidence level, plus the THC, CBD and terpenes that pushed it up or down.</p>
+        </li>
+        <li>
+          <h3>Tune it to you</h3>
+          <p>Turn traits up or down in My sensitivities, and add your own rating to compare the estimate with your experience.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section wrap" aria-labelledby="look">
+      <div class="section-head">
+        <h2 id="look">A quick look</h2>
+      </div>
+      <div class="screens">
+        <figure>
+          <img src="assets/img/screen-home.png" width="414" height="900" loading="lazy"
+               alt="Munchie Bot home screen: a search box with a scan button above a list of recent scans, each with a 1 to 10 score dial.">
+          <figcaption>Your recent scans</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/screen-result.png" width="414" height="900" loading="lazy"
+               alt="A result screen showing a score of 7, Strong munchies, likely 6 to 9 with medium confidence, and a note that this batch isn't typical for its strain.">
+          <figcaption>Score, range and confidence</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/screen-strain.png" width="414" height="900" loading="lazy"
+               alt="A strain profile for Durban Poison with a typical score of 2 and its usual lab profile: THC about 18 percent, THCV about 0.4 percent, terpinolene-dominant.">
+          <figcaption>Typical strain profiles</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="private">
+      <div class="card privacy-card">
+        <div>
+          <h2 id="private">Private by design</h2>
+          <p>Munchie Bot has no accounts and no server. What you scan and how you rate it stays on your iPhone.</p>
+          <p><a href="privacy/">Read the privacy policy</a></p>
+        </div>
+        <ul class="checks">
+          <li>No sign-up or account</li>
+          <li>No ads, analytics or tracking</li>
+          <li>Scans and ratings stored only on your phone</li>
+          <li>Back up to Files or iCloud Drive whenever you like</li>
+        </ul>
+      </div>
+      <p class="note">Munchie Bot is an information tool for adults 21 and older where cannabis is legal. Scores are estimates based on lab data and published research, not medical advice. It doesn’t sell, deliver or advertise any products.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy Policy</a>
+        <a href="data/">Strain data</a>
+        <a href="mailto:support@munchiebot.app">support@munchiebot.app</a>
+      </nav>
+      <p>© 2026 Munchie Bot. Wordmark set in Space Grotesk (<a href="assets/fonts/OFL.txt">SIL Open Font License</a>).</p>
+    </div>
+  </footer>
+</body>
+</html>

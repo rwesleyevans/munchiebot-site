@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Strain data · Munchie Bot</title>
+  <meta name="description" content="Munchie Bot's strain profiles are built from Cannlytics' cannabis_results dataset (CC BY 4.0): median cannabinoid and terpene values from flower lab results.">
+  <link rel="canonical" href="https://www.munchiebot.app/data/">
+  <link rel="icon" href="../assets/img/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/SpaceGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="../" aria-label="Munchie Bot home">
+        <span>munchie <span class="bot">bot</span></span>
+        <span class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc wrap narrow">
+    <header>
+      <h1>Strain data</h1>
+      <p class="lede">Where the strain profiles in Munchie Bot come from, and what we changed.</p>
+    </header>
+
+    <section class="card" aria-labelledby="source">
+      <h2 id="source">Source</h2>
+      <p>The strain profiles are built from Cannlytics’ <a href="https://huggingface.co/datasets/cannlytics/cannabis_results"><code>cannabis_results</code></a> dataset, a collection of public cannabis lab results. The dataset is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>.</p>
+      <p>Thanks to Cannlytics for collecting and publishing it. Cannlytics doesn’t endorse Munchie Bot.</p>
+    </section>
+
+    <section class="card" aria-labelledby="changes">
+      <h2 id="changes">What we changed</h2>
+      <ul>
+        <li>We kept flower samples only.</li>
+        <li>We computed the median cannabinoid and terpene values for each strain.</li>
+        <li>A strain gets a profile only if it has at least 25 samples from at least 3 producers.</li>
+      </ul>
+    </section>
+
+    <section class="card summary" aria-labelledby="typical">
+      <h2 id="typical">Typical values, not guarantees</h2>
+      <p>A strain profile shows what lab results for that strain usually look like. The product you buy can test quite differently, depending on who grew it, the batch and how it was stored. For the product in your hand, scan its own lab report.</p>
+    </section>
+
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Questions</h2>
+      <p>Spotted a problem with a strain profile? Email <a href="mailto:support@munchiebot.app">support@munchiebot.app</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="../">Home</a>
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="mailto:support@munchiebot.app">support@munchiebot.app</a>
+      </nav>
+      <p>© 2026 Munchie Bot. Wordmark set in Space Grotesk (<a href="../assets/fonts/OFL.txt">SIL Open Font License</a>).</p>
+    </div>
+  </footer>
+</body>
+</html>
