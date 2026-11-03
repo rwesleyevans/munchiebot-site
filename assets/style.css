@@ -180,7 +180,7 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 .lede {
   font-size: clamp(1.1rem, 3.6vw, 1.3rem);
   color: var(--muted);
-  max-width: 36ch;
+  max-width: 80ch;
   margin-inline: auto;
 }
 .hero .wordmark.large { margin-top: 4px; }
